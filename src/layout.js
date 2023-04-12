@@ -5,8 +5,8 @@ export default function Layout() {
     return(
         <>
           <nav>
-            <NavLink className="link" to="/">Home</NavLink>
-            <NavLink className="link" to="/blog">Blog</NavLink>
+            <NavLink reloadDocument className="link" to="/">Home</NavLink>
+            <NavLink  className="link" to="/blog">Blog</NavLink>
             <NavLink className="link" to="/contact">Contact</NavLink>
             <NavLink className="link" to="/about">About</NavLink>
           </nav>

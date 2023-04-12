@@ -5,6 +5,7 @@ import About from './about.js';
 import Contact from './contact.js';
 import Home from './home.js';
 import Blogroutes from './blogroutes.js';
+import Notfound from './notfound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/blog/*" element={<Blogroutes />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
+        <Route path="*" element={<Notfound />} />
         </Route>
       </Routes>
     </>
