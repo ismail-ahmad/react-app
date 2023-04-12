@@ -5,7 +5,7 @@ export default function Notfound() {
     const redirect = useNavigate();
     useEffect(() => {
         setTimeout(() => {
-            redirect(-1)
+            redirect("/react-app")
         }, 1000)
     }, []);
     return(
