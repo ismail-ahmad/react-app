@@ -1,7 +1,8 @@
 {
-  "name": "my-react-app",
-  "version": "0.1.0",
-  "homepage": "https://ismail-ahmad.github.io/react-app/",
+  "name": "react-app",
+ "homepage": "http://ismail-ahmad.github.io/react-app",
+ "version": "1.0.0",
+ "description": "my react application",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
